@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgContenidoIzq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbDeportes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="@string/rbDeportes" />
+
+            <RadioButton
+                android:id="@+id/rbCiudades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/rbCiudades" />
+
+            <RadioButton
+                android:id="@+id/rbNombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="@string/rbNombres" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgContenidoDer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbMoviles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbMoviles" />
+
+            <RadioButton
+                android:id="@+id/rbOrdenadores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbOrdenadores" />
+
+            <RadioButton
+                android:id="@+id/rbHardware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbHardware" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rgContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp">
+
+        <RadioButton
+            android:id="@+id/rbContenido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbContenido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbContenido3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>

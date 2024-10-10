@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Escenario4</string>
+    <string name="rbDeportes">Deportes</string>
+    <string name="rbNombres">Nombres</string>
+    <string name="rbCiudades">Ciudades</string>
+
+    <string name="rbMoviles">Moviles</string>
+    <string name="rbOrdenadores">Ordenadores</string>
+    <string name="rbHardware">Hardware</string>
+
+    <string name="strDeportes1">Tenis de mesa</string>
+    <string name="strDeportes2">futbol</string>
+    <string name="strDeportes3">Baloncesto</string>
+
+    <string name="strNombres1">Jaime</string>
+    <string name="strNombres2">Antonio</string>
+    <string name="strNombres3">Lucia</string>
+
+    <string name="strCiudades1">Sevilla</string>
+    <string name="strCiudades2">Barcelona</string>
+    <string name="strCiudades3">Oviedo</string>
+
+    <string name="strMoviles1">Samsung</string>
+    <string name="strMoviles2">OPPO</string>
+    <string name="strMoviles3">Iphone</string>
+
+    <string name="strOrdenadores1">Acer</string>
+    <string name="strOrdenadores2">HP</string>
+    <string name="strOrdenadores3">Mac</string>
+
+    <string name="strHardware1">Teclado</string>
+    <string name="strHardware2">Raton</string>
+    <string name="strHardware3">Placa Base</string>
+</resources>
